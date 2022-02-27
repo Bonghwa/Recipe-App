@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <meta name="description" content="Find the recipe you want to cook tonight by conveniently searching a keyword!" />
+    <meta name="author" content="Bonghwa" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="meal-search container">
+            <h2>What would you <span>like to cook</span> ?</h2>
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class="meal-result">
+            <div class="meals">
+                <div class="meal">
+                    <div class="meal-img"><img src="./imgs/food.jpg" alt=""></div>
+                    <div class="meal-name">
+                        <h3>Beef Soup</h3>
+                        <a href="#" class="recipe-btn">View Recipe &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
