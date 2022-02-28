@@ -139,3 +139,88 @@ input {
 .meal a:hover {
     background-color: var(--signature-green);
 }
+
+.recipe-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+.recipe-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    border-radius: 3px;
+    max-width: 50rem;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.recipe-details::-webkit-scrollbar {
+    height: 5px;
+    width: 4px;
+    border: 1px solid #d5d5d5;
+    background-color: #d5d5d5;
+}
+
+.recipe-details::-webkit-scrollbar-track {
+    --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.recipe-details::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    outline: 1px solid #eee;
+}
+
+.recipe-details button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: red;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.recipe-content > * {
+    padding: 5px;
+}
+
+.recipe-title {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--gray);
+}
+
+.recipe-instruction h3 {
+    font-size: 1.6rem;
+}
+
+.recipe-watch {
+    text-align: center;
+    background-color: red;
+    width: 8rem;
+    margin: 1rem auto;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.recipe-watch a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+    .meal-search {
+        width: 90%;
+    }
+}
