@@ -33,7 +33,7 @@ p {
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
@@ -43,184 +43,184 @@ img {
 }
 
 header {
-    width: 100%;
-    height: 25vh;
-    background: url(./imgs/bg.jpg) center no-repeat;
-    background-size: cover;
-    position: relative;
+  width: 100%;
+  height: 25vh;
+  background: url(./imgs/bg.jpg) center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .meal-search {
-    width: 60%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, .25);
-    padding: 1rem 5rem;
-    border: 1px solid var(--white);
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0px 8px 32px rgba(31, 38, 135, .37);
-    backdrop-filter: blur(2px);
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 1rem 5rem;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
 }
 
 .meal-search h2 {
-    color: var(--white);
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-    line-height: 1.2;
+  color: var(--white);
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  line-height: 1.2;
 }
 
 .meal-search h2 span {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .search-box {
-    position: relative;
+  position: relative;
 }
 
 input {
-    padding: 1rem;
-    width: 80%;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid var(--color-primary);
-    border-radius: 1rem 0 1rem 0;
-    color: var(--dark-gray);
+  padding: 1rem;
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--color-primary);
+  border-radius: 1rem 0 1rem 0;
+  color: var(--dark-gray);
 }
 
 .search-btn {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: var(--dark-gray);
-    transform: translateX(-2.5rem);
-    cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--dark-gray);
+  transform: translateX(-2.5rem);
+  cursor: pointer;
 }
 
 .meal-result {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .meals {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .meal {
-    width: 20rem;
-    background-color: var(--white);
-    padding: 5px 5px 1.5rem 5px;
-    border-radius: 3px;
-    text-align: center;
-    margin: 0 1rem 1rem 0;
+  width: 20rem;
+  background-color: var(--white);
+  padding: 5px 5px 1.5rem 5px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 1rem 1rem 0;
 }
 
 .meal h3 {
-    font-size: 1.6rem;
-    color: var(--dark-gray);
-    text-transform: capitalize;
-    margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: var(--dark-gray);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
 .meal a {
-    background-color: var(--color-sec);
-    padding: 5px;
-    font-size: 1.4rem;
-    color: var(--white);
-    text-decoration: none;
-    border-bottom: 2px solid var(--signature-green);
-    border-radius: 3px 3px 0 0;
-    transition: all .3s;
+  background-color: var(--color-sec);
+  padding: 5px;
+  font-size: 1.4rem;
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 2px solid var(--signature-green);
+  border-radius: 3px 3px 0 0;
+  transition: all 0.3s;
 }
 
 .meal a:hover {
-    background-color: var(--signature-green);
+  background-color: var(--signature-green);
 }
 
 .recipe-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .8);
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
 }
 
 .recipe-details {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--white);
-    border-radius: 3px;
-    max-width: 50rem;
-    height: 90%;
-    overflow-y: scroll;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  border-radius: 3px;
+  max-width: 50rem;
+  height: 90%;
+  overflow-y: scroll;
 }
 
 .recipe-details::-webkit-scrollbar {
-    height: 5px;
-    width: 4px;
-    border: 1px solid #d5d5d5;
-    background-color: #d5d5d5;
+  height: 5px;
+  width: 4px;
+  border: 1px solid #d5d5d5;
+  background-color: #d5d5d5;
 }
 
 .recipe-details::-webkit-scrollbar-track {
-    --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .recipe-details::-webkit-scrollbar-thumb {
-    background-color: var(--color-primary);
-    outline: 1px solid #eee;
+  background-color: var(--color-primary);
+  outline: 1px solid #eee;
 }
 
 .recipe-details button {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    font-size: 2rem;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    color: red;
-    background-color: var(--white);
-    cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: red;
+  background-color: var(--white);
+  cursor: pointer;
 }
 
 .recipe-content > * {
-    padding: 5px;
+  padding: 5px;
 }
 
 .recipe-title {
-    text-align: center;
-    font-size: 2rem;
-    border-bottom: 2px solid var(--gray);
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 2px solid var(--gray);
 }
 
 .recipe-instruction h3 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .recipe-watch {
-    text-align: center;
-    background-color: red;
-    width: 8rem;
-    margin: 1rem auto;
-    padding: 5px;
-    border-radius: 3px;
+  text-align: center;
+  background-color: red;
+  width: 8rem;
+  margin: 1rem auto;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .recipe-watch a {
-    text-decoration: none;
-    color: var(--white);
+  text-decoration: none;
+  color: var(--white);
 }
 
 @media screen and (max-width: 600px) {
-    .meal-search {
-        width: 90%;
-    }
+  .meal-search {
+    width: 90%;
+  }
 }

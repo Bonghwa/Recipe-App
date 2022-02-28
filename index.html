@@ -1,57 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe App</title>
-    <meta name="description" content="Find the recipe you want to cook tonight by conveniently searching a keyword!" />
+    <meta
+      name="description"
+      content="Find the recipe you want to cook tonight by conveniently searching a keyword!"
+    />
     <meta name="author" content="Bonghwa" />
     <link rel="icon" type="image/png" href="imgs/favicon.png" />
     <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="meal-search container">
-            <h2>What would you <span>like to cook</span> ?</h2>
-            <div class="search-box">
-                <form action="" onsubmit="return false">
-                    <input type="text" id="search" placeholder="Search...">
-                    <button class="search-btn"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
+      <div class="meal-search container">
+        <h2>What would you <span>like to cook</span> ?</h2>
+        <div class="search-box">
+          <form action="" onsubmit="return false">
+            <input type="text" id="search" placeholder="Search..." />
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </form>
         </div>
+      </div>
     </header>
     <section class="container">
-        <div class="meal-result">
-            <div class="meals">
-                <div class="meal">
-                    <div class="meal-img"><img src="./imgs/food.jpg" alt=""></div>
-                    <div class="meal-name">
-                        <h3>Beef Soup</h3>
-                        <a href="#" class="recipe-btn">View Recipe &rarr;</a>
-                    </div>
-                </div>
-            </div>
-            <div class="recipe-modal">
-                <div class="recipe-details">
-                    <button class="close-btn"><i class="fas fa-times"></i></button>
-                    <div class="recipe-content">
-                        <div class="recipe-img"><img src="./imgs/food.jpg" alt=""></div>
-                        <h2 class="recipe-title">Meal Name Here</h2>
-                        <div class="recipe-instruction">
-                            <h3>Instruction</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita, ea rerum nobis quas nostrum odio provident nihil saepe eos magni quis doloribus assumenda, dolorum tempora officiis quidem voluptatibus itaque.</p>
-                        </div>
-                        <div class="recipe-watch">
-                            <a href="#" target="_blank">Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="meal-result">
+        <div class="meals"></div>
+        <div class="recipe-modal">
+          <div class="recipe-details">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <div class="recipe-content"></div>
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
